@@ -10,11 +10,8 @@ const nav_id_map = {
   contact: "contact-us",
 };
 var current_path = window.location.pathname.split("/").pop();
-console.log(current_path);
 current_path = current_path.replace(".html", "");
 const nav_element = document.getElementById(nav_id_map[current_path]);
-console.log(current_path, nav_element);
 if (nav_element) {
-  console.log(nav_id_map[current_path]);
   nav_element.classList.add("border-white", "hover:border-white");
 }
