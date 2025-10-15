@@ -9,7 +9,7 @@ const nav_id_map = {
   gallery: "gallery",
   contact: "contact-us",
 };
-var current_path = window.location.pathname.split("/")[1] || "";
+var current_path = window.location.pathname.split("/")[0] || "";
 current_path = current_path.replace(".html", "");
 const nav_element = document.getElementById(nav_id_map[current_path]);
 console.log(current_path, nav_element);
