@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>ICCT-SD 26 | <%= title %>
+  <title>ICCT-SD 26 | Download Templates
   </title>
   <link rel="stylesheet" href="../css/output.css">
 
@@ -129,10 +129,15 @@
       <h3 class="text-h4 font-semibold  font-montserrat">
         Department of Computer Science and Engineering, NIT, Delhi
       </h3>
-      <p class="text-body opacity-90 mt-2 mb-6">© Copyright <%= new Date().getFullYear() %>, GNDEC, NITD . All rights reserved.
+      <p class="text-body opacity-90 mt-2 mb-6">© Copyright
+        <span id="date"></span>, GNDEC, NITD . All rights reserved.
       </p>
     </div>
   </footer>
+  <script>
+    // Set the current year in the footer
+    document.getElementById('date').textContent = new Date().getFullYear();
+  </script>
 </body>
 
 </html>
