@@ -184,88 +184,500 @@
   </div>
 
   <div>
-    <section class="pt-10 mx-auto px-4 md:max-w-2/3">
-  <div class="text-center ">
+    <section class="py-10 mx-auto px-4 md:max-w-5xl">
+  <div class="text-center mb-10">
     <div class="text-center pb-3 mb-6">
   <h2 class="text-h2 font-bold text-secondary font-montserrat">Gallery</h2>
   <div class="w-28 mt-2 h-1 bg-gradient-to-r from-secondary to-secondary/40 mx-auto  rounded-full"></div>
 </div>
-    <p class="text-center text-body">
-      Coming Soon.
-    </p>
+  </div>
+
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_1').showModal()">
+      <img src="./images/gallery/1.jpeg" alt="Gallery image 1" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_1" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/1.jpeg" alt="Gallery image 1" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_2').showModal()">
+      <img src="./images/gallery/2.jpeg" alt="Gallery image 2" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_2" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/2.jpeg" alt="Gallery image 2" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_3').showModal()">
+      <img src="./images/gallery/3.jpeg" alt="Gallery image 3" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_3" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/3.jpeg" alt="Gallery image 3" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_4').showModal()">
+      <img src="./images/gallery/4.jpeg" alt="Gallery image 4" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_4" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/4.jpeg" alt="Gallery image 4" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_5').showModal()">
+      <img src="./images/gallery/5.jpeg" alt="Gallery image 5" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_5" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/5.jpeg" alt="Gallery image 5" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_6').showModal()">
+      <img src="./images/gallery/6.jpeg" alt="Gallery image 6" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_6" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/6.jpeg" alt="Gallery image 6" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_7').showModal()">
+      <img src="./images/gallery/7.jpeg" alt="Gallery image 7" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_7" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/7.jpeg" alt="Gallery image 7" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_8').showModal()">
+      <img src="./images/gallery/8.jpeg" alt="Gallery image 8" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_8" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/8.jpeg" alt="Gallery image 8" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_9').showModal()">
+      <img src="./images/gallery/9.jpeg" alt="Gallery image 9" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_9" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/9.jpeg" alt="Gallery image 9" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_10').showModal()">
+      <img src="./images/gallery/10.jpeg" alt="Gallery image 10" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_10" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/10.jpeg" alt="Gallery image 10" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_11').showModal()">
+      <img src="./images/gallery/11.jpeg" alt="Gallery image 11" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_11" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/11.jpeg" alt="Gallery image 11" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_12').showModal()">
+      <img src="./images/gallery/12.jpeg" alt="Gallery image 12" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_12" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/12.jpeg" alt="Gallery image 12" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_13').showModal()">
+      <img src="./images/gallery/13.jpeg" alt="Gallery image 13" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_13" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/13.jpeg" alt="Gallery image 13" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_14').showModal()">
+      <img src="./images/gallery/14.jpeg" alt="Gallery image 14" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_14" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/14.jpeg" alt="Gallery image 14" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_15').showModal()">
+      <img src="./images/gallery/15.jpeg" alt="Gallery image 15" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_15" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/15.jpeg" alt="Gallery image 15" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_16').showModal()">
+      <img src="./images/gallery/16.jpeg" alt="Gallery image 16" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_16" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/16.jpeg" alt="Gallery image 16" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_17').showModal()">
+      <img src="./images/gallery/17.jpeg" alt="Gallery image 17" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_17" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/17.jpeg" alt="Gallery image 17" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_18').showModal()">
+      <img src="./images/gallery/18.jpeg" alt="Gallery image 18" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_18" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/18.jpeg" alt="Gallery image 18" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_19').showModal()">
+      <img src="./images/gallery/19.jpeg" alt="Gallery image 19" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_19" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/19.jpeg" alt="Gallery image 19" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_20').showModal()">
+      <img src="./images/gallery/20.jpeg" alt="Gallery image 20" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_20" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/20.jpeg" alt="Gallery image 20" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_21').showModal()">
+      <img src="./images/gallery/21.jpeg" alt="Gallery image 21" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_21" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/21.jpeg" alt="Gallery image 21" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
+    <div class="group relative aspect-square rounded-xl overflow-hidden bg-slate-900/40 border border-white/10 backdrop-blur hover:scale-105 hover:z-10 transition-all duration-500 cursor-pointer" onclick="document.getElementById('modal_22').showModal()">
+      <img src="./images/gallery/22.jpeg" alt="Gallery image 22" class="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+      <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-br from-cyan-500/20 via-transparent to-transparent"></div>
+    </div>
+
+    <dialog id="modal_22" class="modal">
+      <div class="modal-box max-w-full w-full h-full max-h-full p-0 bg-black/95">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 text-white z-10">✕</button>
+        </form>
+        <div class="flex items-center justify-center w-full h-full p-4">
+          <img src="./images/gallery/22.jpeg" alt="Gallery image 22" class="max-w-full max-h-full object-contain" />
+        </div>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+    
   </div>
 </section>
   </div>
 
   <!-- Footer -->
   <footer class="bg-gradient-to-br from-secondary to-secondary/70 text-secondary-content mt-auto">
-    <!-- Main Footer Content -->
-    <div class="container mx-auto px-4 py-12">
-      <div class="grid md:grid-cols-2 gap-8 items-start">
-        <!-- Left Column - Conference Info -->
-        <div class="text-center md:text-left">
-          <div class="flex items-center justify-center md:justify-start gap-4 mb-6">
-            <img src="./images/college_logo.png" alt="" class="h-28 object-contain bg-white rounded-full p-1" />
-            <img src="./images/nitdel.png" alt="" class="h-28 object-contain bg-white rounded-full p-1" />
+    <div class="container mx-auto px-4 py-12 flex flex-col md:flex-row gap-8 items-center">
+      <div class="text-center md:text-left md:flex-2">
+        <div class="flex items-center justify-center md:justify-start gap-4 mb-6">
+          <img src="./images/college_logo.png" alt="" class="h-28 object-contain bg-white rounded-full p-1" />
+          <img src="./images/nitdel.png" alt="" class="h-28 object-contain bg-white rounded-full p-1" />
+        </div>
+
+        <h3 class="text-h2 font-black font-montserrat mb-4">
+          ICCT-SD 2026
+        </h3>
+
+        <div class="space-y-4">
+          <div>
+            <h5 class="text-small opacity-80 mb-2">Organised by</h5>
+            <h3 class="text-h5 font-semibold font-montserrat">
+              Department of Computer Science and Engineering<br>GNDEC, Ludhiana
+            </h3>
           </div>
 
-          <h3 class="text-h2 font-black font-montserrat mb-4">
-            ICCT-SD 2026
-          </h3>
-
-          <div class="space-y-4">
-            <div>
-              <h5 class="text-small opacity-80 mb-2">Organised by</h5>
-              <h3 class="text-h5 font-semibold font-montserrat">
-                Department of Computer Science and Engineering<br>GNDEC, Ludhiana
-              </h3>
-            </div>
-
-            <div>
-              <h5 class="text-small opacity-80 mb-2">In collaboration with</h5>
-              <h3 class="text-h5 font-semibold font-montserrat">
-                Department of Computer Science and Engineering<br>NIT, Delhi
-              </h3>
-            </div>
-          </div>
-
-          <!-- Contact Info -->
-          <div class="mt-6 space-y-2 text-small opacity-90">
-            <div class="flex items-center justify-center md:justify-start gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-              <span>Gill Road, Ludhiana, Punjab 141006, India</span>
-            </div>
-            <div class="flex items-center justify-center md:justify-start gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              <span>icctsd26@gmail.com</span>
-            </div>
+          <div>
+            <h5 class="text-small opacity-80 mb-2">In collaboration with</h5>
+            <h3 class="text-h5 font-semibold font-montserrat">
+              Department of Computer Science and Engineering<br>NIT, Delhi
+            </h3>
           </div>
         </div>
 
-        <!-- Right Column - Interactive Map -->
-        <div class="w-full">
-          <h4 class="text-h5 font-bold font-montserrat mb-4 text-center md:text-left">Conference Venue Location</h4>
-          <div class="rounded-xl overflow-hidden shadow-2xl border-4 border-white/20 hover:border-white/40 transition-all duration-300">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6849.854876332422!2d75.8571052!3d30.8607065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a828f09011b15%3A0xbf3f5b51dcc81b12!2sGuru%20Nanak%20Dev%20Engineering%20College!5e0!3m2!1sen!2sin!4v1762316832403!5m2!1sen!2sin" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mt-6 space-y-2 text-small opacity-90">
+          <div class="flex items-center justify-center md:justify-start gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            <span>Gill Park, Gill Road, Ludhiana, Punjab 141006, India</span>
           </div>
-          <div class="mt-4 text-center">
-            <a href="https://maps.google.com/?q=Guru+Nanak+Dev+Engineering+College+Ludhiana" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition-all duration-300 text-small font-semibold">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
-              Open in Google Maps
-            </a>
+          <div class="flex items-center justify-center md:justify-start gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <span>icctsd26@gmail.com</span>
           </div>
+        </div>
+      </div>
+
+      <div class="md:flex-1 ">
+        <h4 class="text-h5 font-bold font-montserrat mb-4 text-center md:text-left">Conference Venue Location</h4>
+        <div class="rounded-xl overflow-hidden shadow-2xl border-4 border-white/20 hover:border-white/40 transition-all duration-300 h-96">
+          <iframe class="h-full w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6849.854876332422!2d75.8571052!3d30.8607065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a828f09011b15%3A0xbf3f5b51dcc81b12!2sGuru%20Nanak%20Dev%20Engineering%20College!5e0!3m2!1sen!2sin!4v1762316832403!5m2!1sen!2sin" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="mt-4 text-center">
+          <a href="https://maps.google.com/?q=Guru+Nanak+Dev+Engineering+College+Ludhiana" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition-all duration-300 text-small font-semibold">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+            Open in Google Maps
+          </a>
         </div>
       </div>
     </div>
 
-    <!-- Copyright Bar -->
     <div class="border-t border-white/20 py-4">
       <div class="container mx-auto px-4 text-center">
         <p class="text-small opacity-80">
