@@ -2511,24 +2511,6 @@
       display: none;
     }
   }
-  .md\:divider-horizontal {
-    @media (width >= 48rem) {
-      --divider-m: 0 1rem;
-      &.divider {
-        height: auto;
-        width: calc(0.25rem * 4);
-        flex-direction: column;
-        &:before {
-          height: 100%;
-          width: calc(0.25rem * 0.5);
-        }
-        &:after {
-          height: 100%;
-          width: calc(0.25rem * 0.5);
-        }
-      }
-    }
-  }
   .md\:h-20 {
     @media (width >= 48rem) {
       height: calc(var(--spacing) * 20);
@@ -2683,9 +2665,22 @@
       grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
+  .xl\:min-h-36 {
+    @media (width >= 80rem) {
+      min-height: calc(var(--spacing) * 36);
+    }
+  }
+  .xl\:flex-row {
+    @media (width >= 80rem) {
+      flex-direction: row;
+    }
+  }
 }
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+:root {
+  --scroll-thumb: oklch(0.5059 0.0785 261.19);
+}
 @layer utilities {
   @keyframes gradient-rotate {
     0% {
@@ -2750,6 +2745,23 @@ html {
   100% {
     transform: translate3d(85px, 0, 0);
   }
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner {
+  background: transparent !important;
+  border: none !important;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb) !important;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+html {
+  scrollbar-width: auto;
+  scrollbar-color: var(--scroll-thumb) transparent;
 }
 @layer base {
   :where(:root),:root:has(input.theme-controller[value=light]:checked),[data-theme=light] {
