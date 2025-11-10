@@ -1686,10 +1686,10 @@
       background-color: color-mix(in oklab, var(--color-secondary) 20%, transparent);
     }
   }
-  .bg-secondary\/80 {
+  .bg-secondary\/70 {
     background-color: var(--color-secondary);
     @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--color-secondary) 80%, transparent);
+      background-color: color-mix(in oklab, var(--color-secondary) 70%, transparent);
     }
   }
   .bg-white {
