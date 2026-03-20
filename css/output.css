@@ -1160,23 +1160,14 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
-  .mt-16 {
-    margin-top: calc(var(--spacing) * 16);
-  }
   .mt-auto {
     margin-top: auto;
-  }
-  .mr-2 {
-    margin-right: calc(var(--spacing) * 2);
   }
   .mr-3 {
     margin-right: calc(var(--spacing) * 3);
   }
   .mr-4 {
     margin-right: calc(var(--spacing) * 4);
-  }
-  .mb-1 {
-    margin-bottom: calc(var(--spacing) * 1);
   }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
@@ -1438,9 +1429,6 @@
   .max-h-96 {
     max-height: calc(var(--spacing) * 96);
   }
-  .w-1\/3 {
-    width: calc(1/3 * 100%);
-  }
   .w-3 {
     width: calc(var(--spacing) * 3);
   }
@@ -1486,9 +1474,6 @@
   .w-full {
     width: 100%;
   }
-  .max-w-\[200px\] {
-    max-width: 200px;
-  }
   .max-w-md {
     max-width: var(--container-md);
   }
@@ -1497,9 +1482,6 @@
   }
   .min-w-0 {
     min-width: calc(var(--spacing) * 0);
-  }
-  .min-w-32 {
-    min-width: calc(var(--spacing) * 32);
   }
   .min-w-\[100px\] {
     min-width: 100px;
@@ -2197,9 +2179,6 @@
     --tw-tracking: var(--tracking-wide);
     letter-spacing: var(--tracking-wide);
   }
-  .break-all {
-    word-break: break-all;
-  }
   .link-secondary {
     color: var(--color-secondary);
     @media (hover: hover) {
@@ -2314,24 +2293,6 @@
     --tw-duration: 300ms;
     transition-duration: 300ms;
   }
-  .btn-outline {
-    &:not( .btn-active, :hover, :active:focus, :focus-visible, :disabled, [disabled], .btn-disabled, :checked ) {
-      --btn-shadow: "";
-      --btn-bg: #0000;
-      --btn-fg: var(--btn-color);
-      --btn-border: var(--btn-color);
-      --btn-noise: none;
-    }
-    @media (hover: none) {
-      &:hover:not( .btn-active, :active, :focus-visible, :disabled, [disabled], .btn-disabled, :checked ) {
-        --btn-shadow: "";
-        --btn-bg: #0000;
-        --btn-fg: var(--btn-color);
-        --btn-border: var(--btn-color);
-        --btn-noise: none;
-      }
-    }
-  }
   .btn-lg {
     --fontsize: 1.125rem;
     --btn-p: 1.25rem;
@@ -2436,13 +2397,6 @@
         @supports (color: color-mix(in lab, red, red)) {
           background-color: color-mix(in oklab, var(--color-white) 30%, transparent);
         }
-      }
-    }
-  }
-  .hover\:underline {
-    &:hover {
-      @media (hover: hover) {
-        text-decoration-line: underline;
       }
     }
   }
